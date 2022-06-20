@@ -6,8 +6,6 @@ import './Bookings.css'
 const Bookinghomepage = () => {
   return (
     <div className='bookings_main'>
-        <h2>Stall Booking Platform</h2>
-        <br/>
         <Link to={'./vendorsfeed'}className="vendor_form">Vendor's Requirement</Link>
         <br/>
         <Link to={'./bookingstall'}className="book_stall">Book Stall</Link>

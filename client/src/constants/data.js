@@ -107,42 +107,42 @@ const Dashboard = () => {
                 title: 'Farmers Markets',
                 subtitle: 'Total Farmers Markets',
                 value: finalMarketsArr.length, 
-                percent: (finalMarketsArr.length*maxmarkets)/100
+                percent: (finalMarketsArr.length*100)/maxmarkets
                 
             },
             {
                 title: 'Farmers',
                 subtitle: 'Total No. of Farmers',
                 value: finalNamesArr.length,
-                percent: (finalNamesArr.length*maxFarmers)/100
+                percent: (finalNamesArr.length*100)/maxFarmers
                 
             },
             {
-                title: 'Purched Quantity',
+                title: 'Purched Quantity (Kg)',
                 subtitle: 'Total Quantity Purched',
                 value: TotalPurchaseQty,
-                percent: (TotalPurchaseQty*maxPurchaseQty)/100
+                percent: (TotalPurchaseQty*100)/maxPurchaseQty
             },
             {
-                title: 'Purchase',
+                title: 'Purchase (INR)',
                 subtitle: 'Total Purchase Amount',
                 value: TotalPurchaseAmount,
-                percent: (TotalPurchaseQty*maxPurchaseAmount)/100
+                percent: (TotalPurchaseQty*100)/maxPurchaseAmount
             },
             {
-                title: 'Sales Quantity',
+                title: 'Sales Quantity (Kg)',
                 subtitle: 'Total Sales Quantity',
                 value: totalSalesQty,
-                percent: (totalSalesQty*maxSalesQty)/100
+                percent: (totalSalesQty*100)/maxSalesQty
             },
             {
-                title: 'Sales',
+                title: 'Sales (INR)',
                 subtitle: 'Total Sales Amount',
-                value: totalSalesAmount,
-                percent: (totalSalesAmount*maxSalesAmount)/100
+                value:  totalSalesAmount,
+                percent: (totalSalesAmount*100)/maxSalesAmount
             },
             {
-                title: 'Farmer Profit',
+                title: 'Farmer Profit (INR)',
                 subtitle: 'Total Farmer Profit',
                 value: totalFarmersProfit,
                 percent: totalFarmersProfit
